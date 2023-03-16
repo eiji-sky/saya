@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.one{
+    background-color: #171717;
+}
+.container .one .png{
+    transform: translate(-600px) scale(1.5);
+
+}
+
+.one .text{
+    transform: scale(5);
+}
+
+.one .time{
+    color: #5FC0B5;
+    transform: scale(2) translate(200px, -200px);
+    
+}
+
+.two{
+    background-color: #5FC0B5;
+}
+.container .two .png{
+    transform: translate(280px, 30px) scale(1.4);
+}
+.two .text{
+    color: #171717;
+    transform: scale(2) translate(10px);
+}
+.three{
+    background-color: #171717;
+    align-items: center;
+    position: flex;
+    justify-content: center;
+}
+.container .three i{
+    font-size: 150px;
+    color: #fff;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+.container .three h2{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #171717;
+}
+
+.one h1{
+    color:#5FC0B5;
+    font-size: 18px
+    
+}
+header h2{
+    color: #fff;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+.nav-links li a{
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+}
+.nav-links li a:hover{
+    color: rgb(206, 206, 206);
+}
+.container .one .text .popup{
+    display: none;
+    transform: scale(0.5) translate(200px);
+    position: absolute;
+    width: 300px;
+    justify-content: center;
+}
+.container .one .text .popup img{
+    width: 300px;
+    background-size: cover;
+}
+.container .one .text:hover{
+    .color
+}
+@media(min-width: 320px){
+    .nav-links{
+        display: none;
+        transition: 2.2s ease-in-out;
+    }
+    .container .one .png{
+        transform: scale(1) translate(-100px, 70px);
+        transition: 2.2s ease-in-out;
+    }
+    .container .one .text{
+        transform: scale(2) translate(-141px, -180px);
+        transition: 2.2s ease-in-out;
+    }
+    .one .time{
+        color: #5FC0B5;
+        margin: 10px;
+        transform: scale(1.5) translate(-141px, 230px);
+    }
+    .container .two .png{
+        transform: scale(1) translate(100px);
+    }
+    .container .two .text{
+        transform: scale(2) translate(80px);
+    }
+    .container .three i{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 3px;
+        transform: scale(0.3)
+        
+    }
+    .container .three h2{
+        transform: scale(0.6) translate(0px, -70px);
+    }
+}
+@media(min-width: 1281px){
+    .nav-links{
+        display: none;
+        transition: 2.2s ease-in-out;
+    }
+    .container .one .png{
+        transform: translate(-600px) scale(1.5);
+        transition: 2.2s ease-in-out;
+    }
+    .container .one .text{
+        transform: scale(5);
+        transition: 2.2s ease-in-out;
+    }
+    .one .time{
+        color: #5FC0B5;
+        transform: scale(2) translate(200px, -200px);
+        
+    }
+    .container .two .png{
+        transform: translate(280px, 30px) scale(1.4);
+    }
+    .container .two .text{
+        transform: scale(2) translate(10px);
+    }
+    .container .three i{
+        font-size: 150px;
+        color: #fff;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 40px;
+    }
+    .container .three h2{
+        transform: scale(0.6) translate(0px, -70px);
+    }
+}
